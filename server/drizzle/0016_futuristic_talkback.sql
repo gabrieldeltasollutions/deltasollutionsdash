@@ -1,0 +1,1 @@
+ALTER TABLE `phaseActivities` ADD `progress` int DEFAULT 0 NOT NULL;

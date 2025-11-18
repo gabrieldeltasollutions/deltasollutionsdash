@@ -1,0 +1,1 @@
+ALTER TABLE `teamMembers` ADD `hierarchyLevel` enum('colaborador','lider','gerente','comprador','diretor','financeiro');

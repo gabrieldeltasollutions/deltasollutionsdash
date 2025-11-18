@@ -1,0 +1,22 @@
+CREATE TABLE `quoteItems` (
+	`id` int AUTO_INCREMENT NOT NULL,
+	`quoteId` int NOT NULL,
+	`machineId` int NOT NULL,
+	`partDescription` text NOT NULL,
+	`quantity` int NOT NULL DEFAULT 1,
+	`materialId` int,
+	`partWidthMm` int,
+	`partLengthMm` int,
+	`rawMaterialCost` int NOT NULL DEFAULT 0,
+	`toolingCost` int NOT NULL DEFAULT 0,
+	`thirdPartyServicesCost` int NOT NULL DEFAULT 0,
+	`machineTimeHours` int NOT NULL,
+	`setupTimeHours` int NOT NULL DEFAULT 0,
+	`machineHourlyCost` int NOT NULL,
+	`totalMachineCost` int NOT NULL,
+	`totalLaborCost` int NOT NULL,
+	`itemSubtotal` int NOT NULL,
+	`createdAt` timestamp NOT NULL DEFAULT (now()),
+	`updatedAt` timestamp NOT NULL DEFAULT (now()) ON UPDATE CURRENT_TIMESTAMP,
+	CONSTRAINT `quoteItems_id` PRIMARY KEY(`id`)
+);

@@ -1,0 +1,1 @@
+ALTER TABLE `quotes` ADD `status` enum('pendente','aprovado','rejeitado') DEFAULT 'pendente' NOT NULL;

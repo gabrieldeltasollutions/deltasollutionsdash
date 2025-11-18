@@ -1,0 +1,1 @@
+ALTER TABLE `projects` ADD `phase` enum('planejamento','desenvolvimento','testes','entrega','finalizado') DEFAULT 'planejamento' NOT NULL;

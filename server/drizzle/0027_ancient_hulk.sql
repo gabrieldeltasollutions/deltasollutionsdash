@@ -1,0 +1,1 @@
+ALTER TABLE `material_approvals` MODIFY COLUMN `action` enum('approved','rejected','purchased','received') NOT NULL;

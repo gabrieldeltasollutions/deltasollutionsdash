@@ -1,0 +1,1 @@
+ALTER TABLE `project_materials` ADD `imageUrl` varchar(500);

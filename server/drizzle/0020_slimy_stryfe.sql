@@ -1,0 +1,1 @@
+ALTER TABLE `phase_subtasks` ADD `order` int DEFAULT 0 NOT NULL;

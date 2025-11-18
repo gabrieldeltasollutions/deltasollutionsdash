@@ -1,0 +1,1 @@
+ALTER TABLE `project_materials` ADD `requestingSector` enum('Software','Hardware','Mecânica','Automação','Administrativo') NOT NULL;

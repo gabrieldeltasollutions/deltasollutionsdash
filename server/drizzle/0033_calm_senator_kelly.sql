@@ -1,0 +1,1 @@
+ALTER TABLE `users` MODIFY COLUMN `level` enum('Dev','Líder','Gerente','Financeiro','Diretor','Comprador');
