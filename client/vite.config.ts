@@ -31,6 +31,8 @@ export default defineConfig({
       ".manuscomputer.ai",
       ".manusvm.computer",
       "localhost",
+      "0.0.0.0",
+      "18.191.87.172",
       "127.0.0.1",
     ],
     fs: {
